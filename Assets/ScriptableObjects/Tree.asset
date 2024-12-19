@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d44c5631f12748881bfc443ddf6ce, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3111512530681087634, guid: fc1f20f19ef1a184b828612379a095fd, type: 3}
+  moveable: 0
+  movementDirection: 2
+  collectable: 0
+  verticalSize: 1
+  spawnHeight: 1
+  breakable: 0
+  minHorizontalSpawnNumber: 1
+  maxHorizontalSpawnNumber: 3
+  spawnDistanceRandom: 6
+  spawnableTerrains:
+  - {fileID: 11400000, guid: fda8ef8dec8f8834cb79f386255b4386, type: 2}
